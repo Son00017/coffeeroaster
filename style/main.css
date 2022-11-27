@@ -520,13 +520,6 @@ li a:active,
     margin-bottom: 6.5rem;
   }
 }
-@media (max-width: 850px) {
-  .choosing-us_container {
-    background-image: url(../images/Bitmap.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100.2%;
-  }
-}
 
 @media (max-width: 800px) {
   .working__picking-block {
