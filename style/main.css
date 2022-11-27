@@ -120,7 +120,7 @@ li a:hover {
   letter-spacing: 0.923077px;
   text-transform: uppercase;
 }
-.nav-btn {
+.toggele-btn {
   display: none;
   border: none;
   outline: none;
@@ -630,16 +630,53 @@ li a:active,
   .hero__description {
     text-align: center;
   }
-  .nav-btn {
+  .toggele-btn {
     display: block;
+    background: none;
   }
-  .sitenav {
+  .hidden {
     display: none;
   }
+  .sitenav {
+    position: absolute;
+    top: 8.5rem;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding-top: 4rem;
+    background: linear-gradient(
+      180deg,
+      rgba(254, 252, 247, 0.504981) 0%,
+      #fefcf7 55.94%
+    );
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+
+  .sitenav__item:not(:last-child) {
+    margin: 0;
+    margin-bottom: 3.2rem;
+  }
+
+  .sitenav__list {
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    height: 100%;
+    flex-direction: column;
+    padding-top: 4rem;
+  }
+
+  .sitenav__link {
+    font-size: var(--h4-size);
+    font-family: var(--fon-fraunces);
+    font-weight: var(--black-weight);
+    text-transform: capitalize;
+    color: var(--title-blck-color);
+  }
+
   .collection__container {
     padding-right: 0;
     padding-left: 0;
-    padding-top: 8.5rem;
+    padding-top: 9rem;
     background-size: 100%;
     grid-template-columns: repeat(1, 28.2rem);
     gap: 4.7rem;
