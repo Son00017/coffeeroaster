@@ -725,3 +725,8 @@ li a:active,
     padding-bottom: 5.6rem;
   }
 }
+@media (max-width: 280px) {
+  html {
+    font-size: 50%;
+  }
+}
