@@ -678,7 +678,7 @@ li a:active,
   }
   .working__picking-block {
     display: grid;
-    grid-template-columns: repeat(1, 37.5rem);
+    grid-template-columns: repeat(1, 30.5rem);
     gap: 4.4rem;
     place-content: center;
     /* padding-right: 12.5rem; */
